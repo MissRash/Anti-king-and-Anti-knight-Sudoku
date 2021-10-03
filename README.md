@@ -1,0 +1,1 @@
+# Anti-king-and-Anti-knight-Sudoku
