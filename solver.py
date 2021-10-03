@@ -40,6 +40,7 @@ def constraints_check(sudoku, value, coordinates, antiking, antiknight):
                             if sudoku[row][col] == value:
                                 return False
 
+                            
             # Checking four diagonal anti-king moves of cell (coordinates[0], coordinates[1]) for same number as value
             # Not necessary to check vertical and horizontal anti-king moves as they are already checked in lines 4, 9
             if antiking == 'T':
