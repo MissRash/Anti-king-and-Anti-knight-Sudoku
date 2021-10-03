@@ -2,6 +2,7 @@ import pygame, sys
 from pygame.locals import *
 
 
+
 # Set the display window size (windowwidth, windowheight, windowsize_multiplier)
 # For sudoku puzzles, the window is of square shape. Therefore, height and width have the same value.
 windowwidth = 9
