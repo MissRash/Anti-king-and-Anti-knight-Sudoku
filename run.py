@@ -3,6 +3,7 @@ from gui import *
 from solver import *
 from solvability_solutionvalidity import *
 
+
 sudoku = []
 # Ask user for file containing sudoku puzzle
 file_name = str(input("\nPlease provide puzzle file name: "))
