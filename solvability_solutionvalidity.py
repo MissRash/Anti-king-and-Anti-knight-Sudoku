@@ -2,6 +2,7 @@
 # First parameter is the array containing the sudoku puzzle
 # Second parameter tells the function if the puzzle is solved or unsolved
 # Third and fourth parameters indicate if anti-king or anti-knight move constraints are applicable or not.
+
 def solvability(sudoku, grid_type, antiking, antiknight):
 
     for row in range(9):
